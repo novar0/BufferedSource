@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufferedSource", "BufferedSource.csproj", "{4B92B5DF-69E6-4CA7-A020-0C0E1C110418}"
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufferedSource", "BufferedSource\BufferedSource.csproj", "{4B92B5DF-69E6-4CA7-A020-0C0E1C110418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufferedSource.Net4", "BufferedSource.Net4\BufferedSource.Net4.csproj", "{82801C90-9100-4B7B-A909-127D617D4EA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BufferedSource.Test", "BufferedSource.Test\BufferedSource.Test.csproj", "{6A9CE654-9524-4B6D-B87B-EAB785367779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +19,14 @@ Global
 		{4B92B5DF-69E6-4CA7-A020-0C0E1C110418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B92B5DF-69E6-4CA7-A020-0C0E1C110418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B92B5DF-69E6-4CA7-A020-0C0E1C110418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82801C90-9100-4B7B-A909-127D617D4EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82801C90-9100-4B7B-A909-127D617D4EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82801C90-9100-4B7B-A909-127D617D4EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82801C90-9100-4B7B-A909-127D617D4EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9CE654-9524-4B6D-B87B-EAB785367779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9CE654-9524-4B6D-B87B-EAB785367779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9CE654-9524-4B6D-B87B-EAB785367779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9CE654-9524-4B6D-B87B-EAB785367779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

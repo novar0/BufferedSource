@@ -35,5 +35,6 @@ UpgradeLog*.xml
 _UpgradeReport_Files*/
 *.build.csdef
 package/
+packages/
 ASPNETDB.MDF
 aspnetdb_log.ldf

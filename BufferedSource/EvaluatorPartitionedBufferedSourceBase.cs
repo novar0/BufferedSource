@@ -171,6 +171,7 @@ namespace BusinessClassLibrary
 		/// </exception>
 		/// <exception cref="System.InvalidOperationException">
 		/// Происходит если источник не смог предоставить в буфере указанное количество данных.
+		/// </exception>
 		public void EnsureBuffer (int size)
 		{
 			if ((size < 0) || (size > this.Buffer.Length))
@@ -246,6 +247,10 @@ namespace BusinessClassLibrary
 			}
 		}
 
+		/// <summary>
+		/// Проверяет данные на принадлежность к одной части.
+		/// Также обновляет свойства IsEndOfPartFound и PartEpilogueSize.
+		/// </summary>
 		protected void ValidatePartData ()
 		{
 			_partValidatedLength = ValidatePartData (_partValidatedLength);

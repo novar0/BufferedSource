@@ -170,6 +170,7 @@ namespace BusinessClassLibrary
 		/// </exception>
 		/// <exception cref="System.InvalidOperationException">
 		/// Происходит если источник не смог предоставить в буфере указанное количество данных.
+		/// </exception>
 		public void EnsureBuffer (int size)
 		{
 			if ((size < 0) || (size > this.Buffer.Length))
